@@ -1,0 +1,40 @@
+.btn {
+    width: 50px;
+    height: 50px;
+    background: #5FD2B5;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;
+    border-style: inset;
+}
+
+.btn:hover {
+    background: #1F7C65;
+    color: #fff;
+    border-style: outset;
+}
+
+#calc-wrap {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background: #eee;
+}
+
+#calc {
+    width: 240px;
+    display: inline-block;
+    border-style: ridge;
+    background: #00A67C;
+}
+
+#inputVal {
+    position: relative;
+    top: 3px;
+    width: 95%;
+    height: 20px;
+    font-size: 16px;
+    resize: vertical;
+    background: #5FD2B5;
+}
